@@ -4,7 +4,12 @@ import skops.io as sio
 from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.impute import SimpleImputer
-from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
+from sklearn.metrics import (
+    accuracy_score,
+    f1_score,
+    confusion_matrix,
+    ConfusionMatrixDisplay,
+)
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
@@ -66,7 +71,7 @@ plt.savefig("./Results/model_results.png", dpi=120)
 
 # Save the trained model
 sio.dump(pipe, "./Model/drug_pipeline.skops")
-#when you update file then do below steps in vscode terminal
-#git commit -am "new changes"
-#git push origin main
-#trial
+# when you update file then do below steps in vscode terminal
+# git commit -am "new changes"
+# git push origin main
+# trial
