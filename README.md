@@ -12,7 +12,7 @@ In this project, we will be using scikit-learn pipelines to train our random for
 
 From training to evaluation, the entire process will be automated using GitHub actions. All you have to do is push the code to your GitHub repository, and within two minutes, the model will be updated on Hugging Face with the updated app, model, and results.
 
-> **Follow the tutorial:** https://www.datacamp.com/tutorial/ci-cd-for-machine-learning
+
 
 ## Pipeline
 
